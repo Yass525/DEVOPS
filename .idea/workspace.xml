@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cedeea5-0f47-47aa-897e-ca806edcaa0d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/achat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/achat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tn/esprit/rh/achat/JunitMockitoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JunitMockitoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/achat-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/achat-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/achat-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/achat-1.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/TEST.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tn/esprit/rh/achat/JunitMockitoTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +47,69 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.JunitMockitoTest.getOperateurTest">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yassi\Documents\Projects\SpringDataJpa-CrudRepo" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AchatApplication">
+    <configuration name="JunitMockitoTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitMockitoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitMockitoTest " type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="achat" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitMockitoTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitMockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="achat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitMockitoTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JunitMockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="achat" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tn.esprit.rh.achat.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.JunitMockitoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitMockitoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -61,12 +119,12 @@
       <module name="achat" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tn.esprit.rh.achat.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tn.esprit.rh.achat" />
-      <option name="MAIN_CLASS_NAME" value="tn.esprit.rh.achat.JunitMockitoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitMockitoTest" />
       <option name="METHOD_NAME" value="getOperateurTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -82,8 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JunitMockitoTest.getOperateurTest" />
         <item itemvalue="JUnit.JunitMockitoTest" />
+        <item itemvalue="JUnit.JunitMockitoTest (1)" />
+        <item itemvalue="JUnit.JunitMockitoTest " />
+        <item itemvalue="JUnit.JunitMockitoTest (1)" />
+        <item itemvalue="JUnit.JunitMockitoTest.getOperateurTest" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +161,10 @@
       <workItem from="1665598216153" duration="2049000" />
       <workItem from="1665925519895" duration="1006000" />
       <workItem from="1665926578134" duration="6417000" />
-      <workItem from="1666025220915" duration="2900000" />
+      <workItem from="1666025220915" duration="8358000" />
+      <workItem from="1666178660252" duration="623000" />
+      <workItem from="1666858855113" duration="1624000" />
+      <workItem from="1667070416648" duration="6237000" />
     </task>
     <servers />
   </component>
