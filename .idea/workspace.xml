@@ -37,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Doughnut_Ontology_OWL_JavaEE" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -153,7 +153,8 @@
       <workItem from="1666178660252" duration="623000" />
       <workItem from="1666858855113" duration="1624000" />
       <workItem from="1667070416648" duration="6237000" />
-      <workItem from="1667140639077" duration="2388000" />
+      <workItem from="1667140639077" duration="4245000" />
+      <workItem from="1667304808184" duration="33000" />
     </task>
     <servers />
   </component>
