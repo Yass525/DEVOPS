@@ -37,7 +37,7 @@ public class JunitMockitoTest {
 
     @Test
     public void getOperateurTest() {
-        System.out.println("********************** get operateur test *******************************");
+        System.out.println("********************** get operateur test ********************************");
         long id = UUID.randomUUID().getMostSignificantBits() & Long.MAX_VALUE;
         long id2 = UUID.randomUUID().getMostSignificantBits() & Long.MAX_VALUE;
 
