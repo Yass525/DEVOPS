@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cedeea5-0f47-47aa-897e-ca806edcaa0d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/achat-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/achat-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/achat-1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/achat-1.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.entities/Operateur.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.entities/Operateur.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.entities/Operateur.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.entities/Operateur.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.entities/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.entities/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.entities/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.entities/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.services/OperateurServiceImpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.services/OperateurServiceImpl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.services/OperateurServiceImpl.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.services/OperateurServiceImpl.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.services/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.services/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/tn.esprit.rh.achat.services/index.source.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Vehicule/VehiculesWS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GestionMagasin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -160,7 +174,7 @@
       <workItem from="1667507684567" duration="744000" />
       <workItem from="1667546077539" duration="690000" />
       <workItem from="1667823842426" duration="820000" />
-      <workItem from="1668082445808" duration="7041000" />
+      <workItem from="1668082445808" duration="10024000" />
     </task>
     <servers />
   </component>
