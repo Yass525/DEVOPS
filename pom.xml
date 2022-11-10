@@ -19,13 +19,13 @@
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.language>java</sonar.language>
-		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
-		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
-		<sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-		<sonar.jacoco.reportsPaths>${project.build.directory}/jacoco-ut.exec</sonar.jacoco.reportsPaths>
-		<sonar.tests>src/test/java</sonar.tests>
-		<sonar.projectKey>sonar-test</sonar.projectKey>
-		<sonar.host.url>http://192.168.0.19:9000</sonar.host.url>
+<!--		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>-->
+<!--		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>-->
+<!--		<sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>-->
+<!--		<sonar.jacoco.reportsPaths>${project.build.directory}/jacoco-ut.exec</sonar.jacoco.reportsPaths>-->
+<!--		<sonar.tests>src/test/java</sonar.tests>-->
+<!--		<sonar.projectKey>sonar-test</sonar.projectKey>-->
+<!--		<sonar.host.url>http://192.168.0.19:9000</sonar.host.url>-->
 	</properties>
 	<dependencies>
 		<dependency>
@@ -69,21 +69,21 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
-		<dependency>
-			<groupId>org.jacoco</groupId>
-			<artifactId>jacoco-maven-plugin</artifactId>
-			<version>0.8.6</version>
-		</dependency>
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-engine</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-project-info-reports-plugin</artifactId>
-			<version>2.4</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.jacoco</groupId>-->
+<!--			<artifactId>jacoco-maven-plugin</artifactId>-->
+<!--			<version>0.8.6</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.junit.jupiter</groupId>-->
+<!--			<artifactId>junit-jupiter-engine</artifactId>-->
+<!--			<scope>test</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.apache.maven.plugins</groupId>-->
+<!--			<artifactId>maven-project-info-reports-plugin</artifactId>-->
+<!--			<version>2.4</version>-->
+<!--		</dependency>-->
 	</dependencies>
 
 	<build>
@@ -110,33 +110,34 @@
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.8.6</version>
 				<executions>
+					<!--first execution : for preparing JaCoCo runtime agent-->
 					<execution>
 						<id>prepare-agent</id>
 						<goals>
 							<goal>prepare-agent</goal>
 						</goals>
-						<phase>test-compile</phase>
 					</execution>
+					<!--second execution : for creating code coverage reports-->
 					<execution>
 						<id>report</id>
+						<phase>test</phase>
 						<goals>
 							<goal>report</goal>
 						</goals>
-						<phase>test</phase>
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.19.1</version>
-			</plugin>
-			<plugin>
-				<groupId>org.sonarsource.scanner.maven</groupId>
-				<artifactId>sonar-maven-plugin</artifactId>
-				<version>3.7.0.1746</version>
-			</plugin>
+
 		</plugins>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.sonarsource.scanner.maven</groupId>
+					<artifactId>sonar-maven-plugin</artifactId>
+					<version>3.4.0.905</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 	</build>
 
 </project>

@@ -12,13 +12,13 @@ public class OperateurServiceImpl implements IOperateurService {
 
 	private final OperateurRepository operateurRepository;
 
-<span class="fc" id="L15">	public OperateurServiceImpl(OperateurRepository operateurRepository) {</span>
-<span class="fc" id="L16">		this.operateurRepository = operateurRepository;</span>
-<span class="fc" id="L17">	}</span>
+<span class="nc" id="L15">	public OperateurServiceImpl(OperateurRepository operateurRepository) {</span>
+<span class="nc" id="L16">		this.operateurRepository = operateurRepository;</span>
+<span class="nc" id="L17">	}</span>
 
 	@Override
 	public List&lt;Operateur&gt; retrieveAllOperateurs() {
-<span class="fc" id="L21">		return (List&lt;Operateur&gt;) operateurRepository.findAll();</span>
+<span class="nc" id="L21">		return (List&lt;Operateur&gt;) operateurRepository.findAll();</span>
 	}
 
 	@Override
