@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: JunitMockitoTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.358 sec - in JunitMockitoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.32 sec - in JunitMockitoTest
